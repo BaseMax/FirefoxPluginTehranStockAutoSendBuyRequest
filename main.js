@@ -1,3 +1,10 @@
+/*
+ * @Name: FirefoxPluginTehranStockAutoSendBuyRequest
+ * @Author: Max Base
+ * @Date: 2021-01-04
+ * @Repository: https://github.com/BaseMax/FirefoxPluginTehranStockAutoSendBuyRequest
+ */
+
 // browser.browserAction.onClicked.addListener(function() {
 // 	alert("Hi click!");
 // });
