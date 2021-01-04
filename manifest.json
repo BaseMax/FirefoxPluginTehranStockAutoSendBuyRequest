@@ -12,5 +12,10 @@
       "matches": ["http://www.tsetmc.com/Loader.aspx?ParTree=15131F"],
       "js": ["main.js"]
     }
+  ],
+  "permissions": [
+    "http://www.tsetmc.com/Loader.aspx?ParTree=15131F",
+    "http://localhost/*",
+    "webRequest"
   ]
 }
