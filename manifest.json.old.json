@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+  "name": "خرید خودکار - بورس تهران",
+  "version": "1.0",
+  "description": "ربات خرید الگوریتمی بورس تهران",
+  "author": "Max Base",
+  "icons": {
+    "48": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://www.tsetmc.com/Loader.aspx?ParTree=15131F"],
+      "js": ["main.js"]
+    }
+  ],
+  "browser_action": {
+    "default_icon": {
+      "19": "icon.png",
+      "38": "icon.png"
+    },
+    "default_title": "بورس تهران",
+    "default_popup": "popup.html"
+  }
+}
